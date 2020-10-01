@@ -19,7 +19,7 @@ const _TotalCart = ({ cart, formUnits }: TotalCartProps) => {
 		});
 		return result;
 	};
-	totalResult();
+
 	return (
 		<div className='TotalCart'>
 			<div className=''>
