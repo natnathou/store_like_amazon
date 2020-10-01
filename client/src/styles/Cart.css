@@ -1,0 +1,21 @@
+.infoItemInCart {
+	width: 80%;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: repeat(5, 22%);
+	justify-content: space-between;
+	align-content: center;
+}
+
+.lineCart {
+	display: flex;
+	justify-content: space-between;
+}
+
+.infoItemInCart > div {
+	white-space: nowrap;
+	text-align: center;
+}
+.infoItemInCart input {
+	text-align: center;
+}

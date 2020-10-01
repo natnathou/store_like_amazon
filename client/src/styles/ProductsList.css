@@ -1,0 +1,20 @@
+.listContainer {
+	display: flex !important;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.checkout {
+	margin: 10px;
+}
+
+.listInfo {
+	display: flex;
+}
+.listInfo > div {
+	margin: 10px;
+}
+
+.listInfo > img {
+	margin: 10px;
+}
